@@ -1,0 +1,135 @@
+/* I generated a color scheme I found palatable using coolors.co. From there I started applying the colors & using various technigues I learned from the course material to finish styling the website.*/
+/* I wanted my name to have a shadow cast, making it stand out*/
+div {
+  /*This was added to help me center my content on the webpage*/
+  height: auto;
+  width: auto;
+  border: auto;
+}
+header {
+  color: #FFFFFF;
+  font-family: monospace;
+  font-size: 50px;
+  text-transform: uppercase;
+  background-color: #75485E;
+  text-shadow: 1px 1px 10px #D0A5C0;
+}
+/*I like the look and feel of monospace text. It's easy to read and gives a tech look to the text.*/
+header p {
+  font-family: monospace;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin: 0px;
+}
+h1 {
+/*I imported a font from Google Fonts to give the header a more custom look. Also, I wanted my name to cast a shadow, so I put that effect on the font*/
+  color: #FFFFFF;
+  font-family: 'Xanh Mono', monospace;;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 75px;
+  margin: 0px;
+}
+/*The backgrounds applied on these texts were pulled from coolors.co in order to give my webpage a color scheme. I applied them to different sections in different ways, but they all have a round box container.*/
+h2 {
+  background-color: #75485E;
+  font-size: 30px;
+}
+h3 {
+  background-color: #808000;
+  font-size: 20px;
+  margin: 0px;
+
+}
+/* with the images I wanted to round out the corners to give it additional character.*/
+img {
+  /* display must be block in order to center image with width & margin*/
+  display: block;
+  border-radius: 35%;
+  padding: 5px;
+}
+/*I made a simple nav bar that highlighted the main parts of the website. I wanted to use the same colors from the website on the link*/
+nav {
+  color: #FFFFFF;
+  padding: 3px;
+  border: 3px 3px;
+  background-color: #D0A5C0;
+  font-size: 18px;
+  font-family: monospace;
+}
+main header {
+  color: #D0A5C0;
+}
+main {
+/* here I add a background image to put more texture on the site.*/
+  background-image: url('images/background-2.jpg');
+  background-repeat: repeat;
+/* cover will cover the entire element*/  
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+}
+/* I applied the same color to both lists*/
+ul {
+  background-color: #808000;
+  margin: 0px;
+}
+ol {
+  background-color:#808000;
+}
+main p {
+  font-size: 20px;
+  background-color: #D0A5C0;
+  border: 5px;
+}
+footer {
+  background-color: #D0A5C0;
+  color: #FFFFFF;
+}
+/*All of the anchor types are styles for the links to have more pop*/
+a:link {
+  color:#FFFFFF;
+}
+a:hover{
+  color: #75485E;
+}
+a:active {
+  color: #FFFD98;
+}
+a:visited {
+  color: #FFFD98;
+}
+/*This class is applied to text to center it in the container*/
+.centered {
+  text-align: center;
+}
+/*This class placed margins on either side of the container so that the content could be centered*/
+.wrapped {
+  width: 400px;
+  margin: auto;
+}
+/*Right-align text was only used for the nav section*/
+.right-align {
+  text-align: right;
+}
+/*This is a class that I applied to all text on the website to keep it uniform. */
+.text {
+  color: #FFFFFF;
+  font-family: monospace;
+}
+/*A class to help me center images*/
+.center-img {
+  margin: auto;
+  width: 50%;
+}
+/*A class to take the square corners off of the containers*/
+.round-container {
+  border-radius: 10px;
+}
+/*A class to put the bullet poitns inside the container with the list items. */
+.inside {
+  list-style-position: inside;
+  padding: 0px;
+}
+/*This has been a great learning experience. I look forward to building more websites.*/
