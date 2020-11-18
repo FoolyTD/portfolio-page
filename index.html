@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Travis Cariaga Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<!-- I imported a font from Google Fonts to add some versitility with fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+<!-- I normalized the site as was suggested in the course material -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<!-- I gave the home section an id so that I could link to it elsewhere on the website -->
+    <header id="home">
+<!-- I applied the wrapped and centered class here, adding a large margin so that the text would appear stacked -->      
+      <div class="wrapped centered">
+        <h1>Travis Cariaga</h1>
+        <p>Software Developer</p>
+      </div>
+    </header>
+<!-- added right aligned navigation bar with clickable links -->
+    <nav class="right-align">
+      <a href="#home">Home | </a>
+      <a href="#about">About Me | </a>
+      <a href="#contact">Contact</a>
+    </nav>
+    
+    <main>
+<!-- inserted a photoshopped image of myself with my mother and daughter to give insight into my creative and funny nature. The image is centered and rounded to add style -->    
+      <img class="center-img" src="images/family-photo.jpeg" alt="Family Picture">
+      
+      <div>
+        <article>
+<!-- Here I lay out my intro and use my first list. I wanted each bit of information to be styled with a different background color -->
+          <p class="text centered round-container wrapped">Hello! I am Travis Cariaga, a software engineer out of Houston, Texas.</p>
+<!--Using the technique I learned in the course, I put the bullet points inside-->
+          <ul class="text centered wrapped round-container inside">
+            <h3 class="round-container">Language Experience:</h3>
+            <hr>
+              <li>Python</li>
+              <li>Javascript</li>
+              <li>HTML 5</li>
+
+        </article>
+      </div>
+<!-- In the About Me section, I wanted to keep it short and sweet. I put an id so it could be accessed elsewhere in the page. -->
+      <div>
+        <h2 id="about" class="text centered round-container wrapped">About Me</h2>
+        <p class="text centered round-container wrapped">I have been on the journey of becoming an engineer since I was young. So far I have built a game, a website, and an API. I am currently working on an game project with some fellow developers using Unreal Engine. My passions include creative problem-solving, marriage & fatherhood.</p>
+      </div>
+
+      <div>
+          <article>
+<!-- This contact section also includes list items inside. I put outside links to my accounts, and even one of the email link I learned from the course material. Additionally, I adjusted the hover, active, and link colors to give more feeling to the links. -->
+            <h2 id="contact" class="text centered round-container wrapped">Contact</h2>
+              <ol class="text centered wrapped round-container inside">
+                <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/FoolyTD/websites" target="_blank">GitHub</a></li>
+                <li><a href="mailto:trcariaga@utexas.edu?subject=Website%20Visitor">E-mail</a></li>
+          </article>
+      </div>
+
+    </main>
+<!-- This copyright symbol and copyright was added because I noticed it on other websites. I feel it makes the website look more official.-->
+    <footer class="centered">&#169; Copyright
+    </footer>
+    
+    
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- All-in-all, I am very impressed with the first website I've built. I learned a lot from the Dev Tools and discussions with my mentor. I have started working on other website to keep my skills fresh while I wait for the cohort to begin. -->
